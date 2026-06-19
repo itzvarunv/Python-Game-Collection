@@ -1,0 +1,170 @@
+{
+    "bot_id": "Neural_Bot_v1",
+    "match_outcome": "Won against Player",
+    "active_weights": {
+        "W_color_bias": 3.0,
+        "W_power": 2.5,
+        "W_panic": 1.6,
+        "noise_factor": 1.7
+    },
+    "game_timeline": [
+        {
+            "action": "Played Wild Card (Color Change)",
+            "bot_hand_size_at_turn": 7,
+            "opponent_hand_size_at_turn": 5,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Wild Card (Color Change)": "Base: 2.5 -> Fuzzy: 1.7",
+                "Yellow 10": "Base: 0.0 -> Fuzzy: -0.3"
+            }
+        },
+        {
+            "action": "Played Red Reverse",
+            "bot_hand_size_at_turn": 6,
+            "opponent_hand_size_at_turn": 4,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Red 9": "Base: 3.9 -> Fuzzy: 3.6",
+                "Red Reverse": "Base: 5.5 -> Fuzzy: 7.0",
+                "Red 6": "Base: 3.6 -> Fuzzy: 4.6"
+            }
+        },
+        {
+            "action": "Played Red 9",
+            "bot_hand_size_at_turn": 5,
+            "opponent_hand_size_at_turn": 4,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Red 9": "Base: 3.9 -> Fuzzy: 4.9",
+                "Red 6": "Base: 3.6 -> Fuzzy: 4.9"
+            }
+        },
+        {
+            "action": "Played Blue 5",
+            "bot_hand_size_at_turn": 4,
+            "opponent_hand_size_at_turn": 3,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Blue 5": "Base: 0.5 -> Fuzzy: 1.6"
+            }
+        },
+        {
+            "action": "Played Yellow 10",
+            "bot_hand_size_at_turn": 3,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Yellow 10": "Base: 0.0 -> Fuzzy: 1.3"
+            }
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Played Wild Card (Color Change)",
+            "bot_hand_size_at_turn": 3,
+            "opponent_hand_size_at_turn": 3,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Wild Card (Color Change)": "Base: 2.5 -> Fuzzy: 2.3"
+            }
+        },
+        {
+            "action": "Played Red 6",
+            "bot_hand_size_at_turn": 2,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Red 6": "Base: 3.6 -> Fuzzy: 3.2"
+            }
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Played Green Skip",
+            "bot_hand_size_at_turn": 4,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Green",
+            "evaluated_utilities": {
+                "Green Skip": "Base: 10.0 -> Fuzzy: 11.0",
+                "Green Reverse": "Base: 10.0 -> Fuzzy: 9.7"
+            }
+        },
+        {
+            "action": "Played Green Reverse",
+            "bot_hand_size_at_turn": 3,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Green Reverse": "Base: 7.0 -> Fuzzy: 8.0"
+            }
+        },
+        {
+            "action": "Played Red Reverse",
+            "bot_hand_size_at_turn": 2,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Red Reverse": "Base: 10.0 -> Fuzzy: 10.2"
+            }
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Played Red +2",
+            "bot_hand_size_at_turn": 2,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Red +2": "Base: 10.0 -> Fuzzy: 10.7"
+            }
+        },
+        {
+            "action": "Draw Card",
+            "reason": "No legal moves available"
+        },
+        {
+            "action": "Played Wild Card (Color Change)",
+            "bot_hand_size_at_turn": 2,
+            "opponent_hand_size_at_turn": 4,
+            "favorite_color_bias": "Yellow",
+            "evaluated_utilities": {
+                "Wild Card (Color Change)": "Base: 2.5 -> Fuzzy: 2.7"
+            }
+        },
+        {
+            "action": "Played Yellow 2",
+            "bot_hand_size_at_turn": 1,
+            "opponent_hand_size_at_turn": 3,
+            "favorite_color_bias": "Yellow",
+            "evaluated_utilities": {
+                "Yellow 2": "Base: 3.2 -> Fuzzy: 2.3"
+            }
+        }
+    ]
+}

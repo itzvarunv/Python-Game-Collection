@@ -1,0 +1,25 @@
+{
+    "bot_id": "Neural_Bot_v1",
+    "match_outcome": "Lost to Player",
+    "active_weights": {
+        "name": "Grandmaster Bot",
+        "W_color_bias": 4.5,
+        "W_power": 4.0,
+        "W_panic": 3.0,
+        "noise_factor": 0.3
+    },
+    "game_timeline": [
+        {
+            "action": "Played Wild Card (Color Change)",
+            "bot_hand_size_at_turn": 11,
+            "opponent_hand_size_at_turn": 1,
+            "favorite_color_bias": "Blue",
+            "evaluated_utilities": {
+                "Yellow 2": "Base: 0.2 -> Fuzzy: 0.2",
+                "Wild Card (Color Change)": "Base: 16.0 -> Fuzzy: 15.7",
+                "Yellow 8": "Base: 0.8 -> Fuzzy: 0.5",
+                "Yellow 3": "Base: 0.3 -> Fuzzy: 0.4"
+            }
+        }
+    ]
+}

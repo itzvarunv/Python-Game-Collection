@@ -1,0 +1,94 @@
+{
+    "bot_id": "Neural_Bot_v1",
+    "match_outcome": "Lost to Player",
+    "active_weights": {
+        "name": "Casual Friend",
+        "W_color_bias": 1.5,
+        "W_power": 1.0,
+        "W_panic": 0.5,
+        "noise_factor": 2.5
+    },
+    "game_timeline": [
+        {
+            "action": "Played Green 4",
+            "bot_hand_size_at_turn": 11,
+            "opponent_hand_size_at_turn": 4,
+            "favorite_color_bias": "Green",
+            "evaluated_utilities": {
+                "Blue Skip": "Base: 1.0 -> Fuzzy: -0.5",
+                "Green 4": "Base: 1.9 -> Fuzzy: 4.1"
+            }
+        },
+        {
+            "action": "Played Yellow Skip",
+            "bot_hand_size_at_turn": 14,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Green",
+            "evaluated_utilities": {
+                "Yellow 3": "Base: 0.3 -> Fuzzy: -1.7",
+                "Yellow 7": "Base: 0.7 -> Fuzzy: -1.5",
+                "Yellow Skip": "Base: 1.5 -> Fuzzy: 1.6"
+            }
+        },
+        {
+            "action": "Played Green Skip",
+            "bot_hand_size_at_turn": 13,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Green",
+            "evaluated_utilities": {
+                "Green Skip": "Base: 3.0 -> Fuzzy: 3.3",
+                "Blue Skip": "Base: 1.5 -> Fuzzy: 1.0",
+                "Yellow 3": "Base: 0.3 -> Fuzzy: 1.9",
+                "Yellow 7": "Base: 0.7 -> Fuzzy: -0.4"
+            }
+        },
+        {
+            "action": "Played Green Reverse",
+            "bot_hand_size_at_turn": 12,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Green 2": "Base: 0.2 -> Fuzzy: -0.4",
+                "Blue Skip": "Base: 1.5 -> Fuzzy: -0.7",
+                "Green Skip": "Base: 1.5 -> Fuzzy: 0.6",
+                "Green Reverse": "Base: 1.5 -> Fuzzy: 3.5",
+                "Green 9": "Base: 0.9 -> Fuzzy: 3.1"
+            }
+        },
+        {
+            "action": "Played Red Reverse",
+            "bot_hand_size_at_turn": 11,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Green 2": "Base: 0.2 -> Fuzzy: 1.7",
+                "Green Skip": "Base: 1.5 -> Fuzzy: 2.1",
+                "Green 9": "Base: 0.9 -> Fuzzy: -0.5",
+                "Blue Reverse": "Base: 1.5 -> Fuzzy: 0.2",
+                "Red Reverse": "Base: 3.0 -> Fuzzy: 3.3"
+            }
+        },
+        {
+            "action": "Played Red 8",
+            "bot_hand_size_at_turn": 10,
+            "opponent_hand_size_at_turn": 2,
+            "favorite_color_bias": "Red",
+            "evaluated_utilities": {
+                "Red 2": "Base: 1.7 -> Fuzzy: 1.8",
+                "Red 8": "Base: 2.3 -> Fuzzy: 4.2",
+                "Blue Reverse": "Base: 1.5 -> Fuzzy: 0.9",
+                "Red 1": "Base: 1.6 -> Fuzzy: 1.1"
+            }
+        },
+        {
+            "action": "Played Red 2",
+            "bot_hand_size_at_turn": 9,
+            "opponent_hand_size_at_turn": 1,
+            "favorite_color_bias": "Green",
+            "evaluated_utilities": {
+                "Red 2": "Base: 0.2 -> Fuzzy: 0.8",
+                "Red 1": "Base: 0.1 -> Fuzzy: -1.2"
+            }
+        }
+    ]
+}
